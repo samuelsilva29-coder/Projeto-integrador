@@ -1,0 +1,37 @@
+/* Seletores e agrupamento */
+
+/* 
+
+* { Seletor universal: Aplica a todos os elementos}
+
+p {Seletor Tipo: Seleciona todas as tags </p>}
+
+.alerta {Seletor Classe: Seleciona todos os
+class="alerta"}
+
+#principal {Seletor ID: Seleciona o elemento com
+id="principal"}
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    color: orange
+}
+h1 {
+    color: blueviolet
+}f
+l
+.formosoalerta {
+    color: yellow
+}
+
+#principal {
+    background-color: white;
+    color: aliceblue;
+}
