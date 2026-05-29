@@ -1,6 +1,32 @@
+/* Formatos de cor: */
+
+/* color: red; [tipo nome(inglês)] */
+/* color: #FF000; [hexadecimal] */
+/* color: rgb(255, 0, 0); [tipo RGB]  */
+
 .nome {
     color: red;
 }
 .hexadecimal {
-    color: red;
+    color: #FF0000;
 }
+.rgb {
+    color: rgb(255, 254, 253);
+}
+.rgb-transparente {
+    color: rgb(255, 140, 80, 0.3);
+}
+.hsl {
+    color: hsl(0, 50%, 50%);
+}
+
+#cor-de-fundo {
+    /* background-color: aquamarine; */
+    background: linear-gradient(to right, #124fca, #4594d1); 
+    /* background-color: rgba(0,0, 0, 0.3 ); */
+}
+
+/* background: linear-gradient(to right, #0077CC, #00CCFF);
+linear-gradient: cria degradês horizontais, verticais ou diagonais */
+
+/* background-color: rgba(0,0,0 0.3); [Cor de fundo com transparencia */

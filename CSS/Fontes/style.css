@@ -1,0 +1,39 @@
+/* FONTES E TIPOGRAFIAS */
+
+/* 
+Propriedades Básicas:
+
+font-family: Define a família da fonte;
+font-size: Tamanho da fonte (px, em, rem, %);
+color: Atribuindo uma cor ao texto;
+line-height: Altura da linha;
+font-weight: espessura do texto; (normal, bold, semi-bold, 300, 500, 700);
+
+text-align: alinhamento (left, center, right, justify);
+*/
+ 
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    color: #222;
+    line-height: 1.5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 
+1- Abrir google font no navegador
+2-Escolher a fonte
+3- obter código de importação
+4- aplicar link ao HTML
+5- aplicar font-family no meu CSS
+ */
+
+.titulo {
+   font-family: "Saira Stencil", sans-serif;
+}
+.sub-titulo {
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #aaa;
+}
