@@ -33,6 +33,10 @@ class Carro:
     def frear(self, reducao):
         # self.velocidade = self.velocidade - reducao
         self.velocidade -= reducao
+        if reducao >= self.velocidade:
+            self.velocidade = 0
+        else:
+           self.velocidade -= reducao
 
         print(f"O carro reduziu para {self.velocidade} km/h")
     
