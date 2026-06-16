@@ -17,15 +17,13 @@
     color: rgb(255, 140, 80, 0.3);
 }
 .hsl {
-    color: hsl(0, 50%, 50%);
+    color: hsl(0, 50%, 50%);l
 }
-
 #cor-de-fundo {
     /* background-color: aquamarine; */
     background: linear-gradient(to right, #124fca, #4594d1); 
     /* background-color: rgba(0,0, 0, 0.3 ); */
 }
-
 /* background: linear-gradient(to right, #0077CC, #00CCFF);
 linear-gradient: cria degradês horizontais, verticais ou diagonais */
 

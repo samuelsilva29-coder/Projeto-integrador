@@ -74,5 +74,3 @@ generos_fic.exibir_genero()
 print("\n")
 usuario1.assistir(filme1)
 usuario1.avaliar(filme1)
-
-
