@@ -1,3 +1,3 @@
-USE catalogo_filmes;
-
-INSERT INTO 
+INSERT INTO generos (nome)
+VALUES
+('Ficção Científica');
