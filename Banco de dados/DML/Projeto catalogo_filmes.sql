@@ -1,3 +1,5 @@
+-- INSERINDO OS DADOS DA TABELA USUÁRIOS
+
 INSERT INTO usuarios (id_usuario, nome, email, senha) VALUES
 (1, 'Samuel Santos', 'samuel7@gmail.com', '1010'),
 (2, 'Arthur', 'arthur@gmail.com', '2020'),
