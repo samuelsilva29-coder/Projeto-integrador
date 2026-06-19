@@ -7,10 +7,7 @@ INSERT INTO usuarios (id_usuario, nome, email, senha) VALUES
 (4, 'Luiz', 'luiz11@gmail.com', '4040'),
 (5, 'Maria', 'maria1@gmail.com', '5050');
 
-
--- quarta feira (17/06), projeto com filmes e generos cadastrados. Quase pronto.
-
--- generos criados: Ficção cientifica, Acao, Infatil, comédia, terror
+-- generos criados: Ficção científica, Ação, Infatil, Comédia e Terror
 INSERT INTO filmes (titulo, ano_lancamento, avaliacao, ator_principal, id_genero)
 VALUES
 -- filmes com id_genero = 1
@@ -33,3 +30,32 @@ VALUES
 -- filmes com id_genero = 5
 ('A Freira', 2018, 6.5, 'Bonnie Aarons', 5),
 ('A Bruxa', 2015, 7.0, 'Anya Taylor-Joy', 5);
+
+-- consultando os usuários criados
+SELECT * FROM usuarios;
+
+--consultando o usuário 1 
+SELECT * FROM usuarios WHERE nome = 'Samuel Santos';
+		
+-- consultando os gêneros criados
+SELECT * FROM generos;
+
+-- consultando um gênero especifico
+SELECT * FROM generos WHERE id_genero = 3;
+
+-- consultando todos os filmes criados
+SELECT * FROM filmes;
+
+-- consultando um filme especifico
+SELECT * FROM filmes WHERE titulo = 'Toy Story 1';
+
+-- utilizando o UPDATE para atualizar o filme John wick
+UPDATE filmes SET titulo = 'John Wick 2' WHERE ator_principal = 'Keanu Reeves';
+
+-- Atualizando um usuário da tabela filmes
+UPDATE usuários
+SET nome = 'José' WHERE id_usuario = 4;
+
+-- utilizando o DELETE para deletar um usuário
+DELETE FROM usuarios
+WHERE id_usuario = 2;
